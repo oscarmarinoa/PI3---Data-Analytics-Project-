@@ -16,6 +16,10 @@ The dataset for this project is formed by .
 * Train.csv: Table containing information regarding to several properties in Colombia, their prices, locations, amenities among other characteristics. This is the data to train the machine learning model for defining the cheap or expensive tag.
 * Test.csv: Table containing information for properties in Colombia, for which the definition of expensive or cheap classification will be predicted.
 
+## Features description.
+
+In the repository files you will find a feature_explanation.txt file containing the description of the characteristics of the datasets used for this project.
+
 ## 1. Data extraction and load of datasets:
 
 In this first stage the files are openeded as Dataframes using the Pandas Library.
