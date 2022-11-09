@@ -5,20 +5,20 @@ Data analysis in order to unravel the key factors that produced flight crashes. 
 
 1. Data extraction and load of datasets.
 2. Data cleansing and transformation with python.
-3. storing data in SQL server
-3. Data analysis.
-4. Preparation of a dashboard.
+3. String data in SQL server.
+4. Data analysis.
+5. Preparation of a dashboard.
 
 ## Dataset
 
 The dataset for this project is formed by .
 
-* Train.csv: Table containing information regarding to several properties in Colombia, their prices, locations, amenities among other characteristics. This is the data to train the machine learning model for defining the cheap or expensive tag.
-* Test.csv: Table containing information for properties in Colombia, for which the definition of expensive or cheap classification will be predicted.
+* Accidentesaviones.csv: Table containing information regarding flight accidents for a time frame over 100 years.
+* qualityreport.docx: File with the Exploratory Data Analisys (EDA) for this project and the its metadata (data dictionary).
 
 ## Features description.
 
-In the repository files you will find a feature_explanation.txt file containing the description of the characteristics of the datasets used for this project.
+In the repository files you will find a qualityreport.docx where a whole section is dedicated to giving detailed information on the features.
 
 ## 1. Data extraction and load of datasets:
 
@@ -28,18 +28,20 @@ In this first stage the files are openeded as Dataframes using the Pandas Librar
 
 This stage is focused on handling the missing and null values of the data, identifying outliers, normalizing numerical variables, transforming categoral data in suitable information for the ML model and performing some feature engineering.
 
-## 3. Machine learning model and hyperparameters:
+## 3. String data in SQL server:
 
 After the data is ready to be used, we select the machine learning model based on the problem we are trying to solve and the characteristics of the data we are using.
 
 This step and the following two are try and error stages, where the hyper parameters and machine learning models are continuosly change to improve the results obtained.
 
-## 4. Calculation of accuracy parameters.
+## 4. Data analysis:
 
 In order to review the effectiveness of our model for cataloguing the properties correctly, some metrics are calculated:
 * Confussion matrix.
 * Accuracy.
 * Recall.
+
+## 5. Preparation of a dashboard.
 
 In this specific project, the performace of the model will be based on how well it can identify expensive properties using the recall:
 
