@@ -1,13 +1,13 @@
 # PI3---Data-Analytics-Project-
-Machine learning project focused on 
-
+Data analysis in order to unravel the key factors that produced flight crashes. This project corresponds to the thirdd individual project of the Data Science career of Henry cohort 04 (DS04)
+ 
 ## Procedure
 
 1. Data extraction and load of datasets.
 2. Data cleansing and transformation with python.
-3. Machine learning model and hyperparameters. definition (sklearn).
-4. Calculation of accuracy parameters.
-5. Hyperparameters update.
+3. storing data in SQL server
+3. Data analysis.
+4. Preparation of a dashboard.
 
 ## Dataset
 
