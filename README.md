@@ -1,5 +1,5 @@
 # PI3---Data-Analytics-Project-
-Data analysis project focusing on understanding the key factors that produced flight crashes from 1909 to 2021. This project corresponds to the thirdd individual project of the Data Science career of Henry cohort 04 (DS04)
+Data analysis project focusing on understanding the key factors that produced flight crashes from 1909 to 2021. This project corresponds to the third individual project of the Data Science career of Henry cohort 04 (DS04)
  
 ## Procedure
 
@@ -11,7 +11,7 @@ Data analysis project focusing on understanding the key factors that produced fl
 
 ## Dataset
 
-The dataset for this project is formed by .
+The dataset for this project is formed by:
 
 * Accidentesaviones.csv: Table containing information regarding flight accidents for a time frame over 100 years.
 * 
@@ -48,11 +48,11 @@ In the repository files you will find a qualityreport.docx where a whole section
 
 ## 1. Data extraction and load of datasets:
 
-In this first stage the files are openeded as Dataframes using the Pandas Library.
+In this first stage the files are opened as Dataframes using the Pandas Library.
 
 ## 2. Exploratory Data Analysis:
 
-This stage is focused on become acquainted with usually using statistics and visualizations, to start formulating testable hypothesis. Previously a tranformation process is executed for handling null values, identifying outliers and normalizing numerical variables.
+This stage is focused on become acquainted with usually using statistics and visualizations, to start formulating testable hypothesis. Previously a transformation process is executed for handling null values, identifying outliers and normalizing numerical variables.
 The following are results from applying an EDA:
 * Maximize insight into a data set.
 * Uncover underlying structure.
@@ -63,11 +63,11 @@ The following are results from applying an EDA:
 
 ## 3. Data to SQL server:
 
-After the data is ready to be used, we tranfer it to a local database where can be used by Power BI users.
+After the data is ready to be used, we transfer it to a local database where can be used by Power BI users.
 
 ## 4. Data analysis:
 
-This is the most important section of the project where we look for insights, trends and behaviours to understand the causes of the flight accidents.
+This is the most important section of the project where we look for insights, trends and behaviors to understand the causes of the flight accidents.
 
 ## 5. Preparation of a dashboard and storytelling.
 
@@ -77,7 +77,7 @@ Developing a story that explain the reasons behind the flight crashes.
 ## --> About the repository
 You will find the following files:
 * Data_transformation.ipynb: A Jupiter notebook file containing all the cleansing and transformation executed to the train file.
-* MySql_conection.ipynb: A Jupiter notebook file containing the code for transfering the dataframe to a SQL server.
+* MySql_conection.ipynb: A Jupiter notebook file containing the code for transferring the dataframe to a SQL server.
 * daashboard.pbix: Dashboard developed. 
 * crashes_modify.csv: A file with the data cleaned and ready to be used.
 * report.docx: Quality report explaining in detail the transformation process.
