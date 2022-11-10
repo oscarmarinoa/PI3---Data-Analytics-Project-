@@ -81,7 +81,7 @@ You will find the following files:
 * MySQL database.sql: Information in SQL server.
 * daashboard.pbix: Dashboard developed. 
 * crashes_modify.csv: A file with the data cleaned and ready to be used.
-* report.docx: Quality report explaining in detail the transformation process.
+* quality_report.docx: Quality report explaining in detail the transformation process.
 * test_corrected.csv: The test data corrected, used for predictions of tags.
 
 ## --> Information to highlight
