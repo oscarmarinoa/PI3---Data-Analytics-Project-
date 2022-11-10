@@ -1,5 +1,5 @@
 # PI3---Data-Analytics-Project-
-Data analysis in order to unravel the key factors that produced flight crashes. This project corresponds to the thirdd individual project of the Data Science career of Henry cohort 04 (DS04)
+Data analysis project focusing on understanding the key factors that produced flight crashes from 1909 to 2021. This project corresponds to the thirdd individual project of the Data Science career of Henry cohort 04 (DS04)
  
 ## Procedure
 
@@ -14,11 +14,37 @@ Data analysis in order to unravel the key factors that produced flight crashes. 
 The dataset for this project is formed by .
 
 * Accidentesaviones.csv: Table containing information regarding flight accidents for a time frame over 100 years.
-* qualityreport.docx: File with the Exploratory Data Analisys (EDA) for this project and the its metadata (data dictionary).
+* 
 
 ## Features description.
 
 In the repository files you will find a qualityreport.docx where a whole section is dedicated to giving detailed information on the features.
+
+Column			Description
+date			Date of the accident.
+time			Time of the accident.
+time_of_day		Time of the day in which the accident happened.
+crash_site		Location of the accident.
+country			Country of the accident
+continent		Continent of the accident
+latitude		Latitude of the accident.
+longitude		Longitude of the accident.
+operator		Airline or operator of the aircraft.
+Flight_type		Type of flight
+Flight_no		Flight number assigned by the aircraft operator.
+route_flight_type	Complete or partial route flown prior to the accident.
+ac_type			Aircraft type.
+registration		ICAO registration of the aircraft.
+cn_ln			Construction or serial number / Line or fuselage number.
+people_on_board		Total people aboard.
+crew_aboard		Crew aboard.
+passengers_on_board	Passengers aboard.
+fatalities		Total fatalities.
+crew_fatalities		Crew fatalities.
+passenger_fatalities	Passengers’ fatalities.
+ground			Total killed on the ground.
+summary			Description of the accident and cause if known.
+
 
 ## 1. Data extraction and load of datasets:
 
