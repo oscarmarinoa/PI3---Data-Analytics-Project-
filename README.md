@@ -78,6 +78,7 @@ Developing a story that explain the reasons behind the flight crashes.
 You will find the following files:
 * Data_transformation.ipynb: A Jupiter notebook file containing all the cleansing and transformation executed to the train file.
 * MySql_conection.ipynb: A Jupiter notebook file containing the code for transferring the dataframe to a SQL server.
+* MySQL database.sql: Information in SQL server.
 * daashboard.pbix: Dashboard developed. 
 * crashes_modify.csv: A file with the data cleaned and ready to be used.
 * report.docx: Quality report explaining in detail the transformation process.
