@@ -54,11 +54,11 @@ In this first stage the files are openeded as Dataframes using the Pandas Librar
 
 This stage is focused on become acquainted with usually using statistics and visualizations, to start formulating testable hypothesis. Previously a tranformation process is executed for handling null values, identifying outliers and normalizing numerical variables.
 The following are results from applying an EDA:
-•	Maximize insight into a data set.
-•	Uncover underlying structure.
-•	Extract and transform important variables.
-•	Detect outliers and anomalies.
-•	Test underlying assumptions.
+* Maximize insight into a data set.
+* Uncover underlying structure.
+* Extract and transform important variables.
+* Detect outliers and anomalies.
+* Test underlying assumptions.
 
 
 ## 3. Data to SQL server:
