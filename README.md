@@ -79,10 +79,9 @@ You will find the following files:
 * Data_transformation.ipynb: A Jupiter notebook file containing all the cleansing and transformation executed to the train file.
 * MySql_conection.ipynb: A Jupiter notebook file containing the code for transferring the dataframe to a SQL server.
 * MySQL database.sql: Information in SQL server.
-* daashboard.pbix: Dashboard developed. 
+* Dashboard_final.pbix: Dashboard developed. 
 * crashes_modify.csv: A file with the data cleaned and ready to be used.
 * quality_report.docx: Quality report explaining in detail the transformation process.
-* test_corrected.csv: The test data corrected, used for predictions of tags.
 
 ## --> Information to highlight
 * [Geopy documentation](https://geopy.readthedocs.io/en/stable/)
