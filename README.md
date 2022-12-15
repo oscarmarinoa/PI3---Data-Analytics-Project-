@@ -1,5 +1,5 @@
 # PI3---Data-Analytics-Project-
-Data analysis project focusing on understanding the key factors that produced flight crashes from 1909 to 2021. This project corresponds to the third individual project of the Data Science career of Henry cohort 04 (DS04)
+Data analytics project focusing on understanding the key factors that produced flight crashes from 1909 to 2021. This project corresponds to the third individual project of the Data Science career of Henry cohort 04 (DS04)
  
 ## Procedure
 
